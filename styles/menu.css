@@ -1,0 +1,124 @@
+/* Animations*/
+.logo {
+    animation: movedown 1s linear 1;
+}
+
+@keyframes movedown {
+    0% {
+        transform: translateY(-100px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*Navbar*/
+.navbar a {
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.glass {
+    /* Glass Effect */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    border: 1px solid rgba(126, 93, 48, 0.3);
+    background: rgba(126, 93, 48, 0.09);
+    /* Other Styles */
+    padding: 1.2% 10% 1.2% 10%;
+}
+
+.nav-item a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    font-size: 17.5px;
+    transition-duration: 0.3s;
+    color: chocolate;
+    filter: contrast(200%);
+}
+
+/* Caroussel*/
+
+h1 {
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #B73E3E;
+    color: #EDDBC0;
+    padding-top: 2%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    padding-top: 50px;
+}
+
+.item-name {
+    margin-top: 16px;
+}
+
+.item-testimonial {
+    font-family: "Montserrat";
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin-top: 25.75px;
+    text-align: center;
+    padding: 0 15% 0 15%;
+}
+
+.testimonial-img {
+    /*border-radius: 100%;*/
+    width: 25.5%;
+    margin: 20px;
+}
+
+
+#testimonials p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+/*Types*/
+#pricing {
+    padding: 100px;
+    padding-top: 2.75%;
+    padding-bottom: 2.5%;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 2% 3%;
+}
+
+.pricing-header {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2.6em;
+}
+
+.pricing-desc {
+    font-family: 'Questrial', sans-serif;
+    margin-top: 1.25%;
+}
+
+/*Footer*/
+#footer {
+    background-color: #B73E3E;
+    text-align: center;
+    padding: 2% 15% 0% 15%;
+    color: #EDDBC0;
+}
+
+.footer-icon {
+    color: #EDDBC0;
+    padding: 5px;
+}

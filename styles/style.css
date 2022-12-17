@@ -1,0 +1,69 @@
+body {
+    background-image: url("../images/namesnack-baking-website-names-4948x3711-20210820.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar a {
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.glass {
+    /* Glass Effect */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    border: 1px solid rgba(126, 93, 48, 0.3);
+    background: rgba(126, 93, 48, 0.09);
+    /* Other Styles */
+    padding: 1.2% 10% 1.2% 10%;
+}
+
+.nav-item a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    font-size: 17.5px;
+    transition-duration: 0.3s;
+    color: chocolate;
+    filter: contrast(200%);
+}
+
+#content {
+    padding: 0 10% 0 10%;
+}
+
+.content-heading h1 {
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5.625rem;
+    padding-top: 245px;
+    margin-bottom: 0;
+}
+
+.content-subheading {
+    color: wheat;
+    font-style: italic;
+    font-size: 1.391rem;
+    font-weight: 500;
+    margin-top: 0%;
+}
+
+#buttons {
+    padding: 0 10% 0 10%;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 0;
+    /*background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);*/
+    color: black;
+}
